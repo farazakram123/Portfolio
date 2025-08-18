@@ -1,0 +1,8 @@
+.gmail{
+    width: 40px;
+    transition: all 0.5s;
+}
+.gmail:hover{
+    cursor: pointer;
+    transform: rotate(20deg) scale(1.1);
+}
