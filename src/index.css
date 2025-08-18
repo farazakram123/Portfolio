@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f9f7fc;
+  font-family: InterVariable, "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: #344256;
+  min-height: 100vh;
+}
+a{
+  text-decoration: none;
+}
