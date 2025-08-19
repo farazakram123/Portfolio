@@ -1,6 +1,3 @@
-.home {
-  
-}
 .container {
     display: flex;
     flex-direction: row;
@@ -10,10 +7,10 @@
 }
 .container-left{
     width: 50%;
-    /* background-color: #f33333; */
     display: flex;
     flex-direction: column;
     gap: 1vw;
+    animation: fadeIn 1s linear;
 }
 .container-left .hello{
     color: #2662d9;
@@ -84,6 +81,10 @@
     padding: 20px 24px;
     margin: 60px 100px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #344256 2px 2px 10px;
+    animation: slide-in 1s linear;
 }
 .skill-container-dots{
     display: flex;
@@ -124,6 +125,7 @@
     color: #6b7280;
 }
 .skill-container .software-developer p{
+    animation: slide-in 1s;
     font-family: "Roboto Mono", monospace;
     color: #6b7280;
     margin-bottom: 15px;
@@ -164,10 +166,68 @@
 .sq-bracket{
     color: #f97316;
 }
+
 @media (max-width : 1143px) {
     .container{
-        width: 100%;
         flex-direction: column;
         align-items: center;
     }
+    .container-left{
+        width: 100%;
+    }
+    .container-right{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width : 780px) {
+    .container-right .skill-container {
+        min-width: 100%;
+    }
+    .container-right .skill-container-dots .dots{
+        gap: 10px;
+    }
+    .container-right .skill-container p{
+        font-size: 12px;
+    }
+}
+@media (max-width : 530px) {
+    .container-left .hello{
+        font-size: 20px;
+        place-self: center;
+    }
+    .container-left .name{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .container-left .title{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .container-left .description{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .container-left-buttons{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes slide-in {
+  from {
+    translate: 150vw 0vw;
+  }
+  to {
+    translate: 0 0;
+  }
 }
