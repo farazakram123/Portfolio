@@ -1,8 +1,7 @@
-.gmail{
-    width: 40px;
+.gmail-svg{
     transition: all 0.5s;
 }
-.gmail:hover{
+.gmail-svg:hover{
     cursor: pointer;
     transform: rotate(20deg) scale(1.1);
 }

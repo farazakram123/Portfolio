@@ -1,8 +1,7 @@
-.github{
-    width: 30px;
+.github-svg{
     transition: all 0.5s;
 }
-.github:hover{
+.github-svg:hover{
     transform: rotate(20deg) scale(1.1);
     cursor: pointer;
 }

@@ -1,8 +1,7 @@
-.linkedin{
-    width: 40px;
+.linkedin-svg{
     transition: all 0.5s;
 }
-.linkedin:hover{
+.linkedin-svg:hover{
     cursor: pointer;
     transform: rotate(20deg) scale(1.1);
 }

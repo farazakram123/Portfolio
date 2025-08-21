@@ -1,0 +1,7 @@
+.bio-svg{
+    cursor:default;
+    transition: all 0.3s;
+}
+.bio-svg:hover{
+    transform: scale(1.1);
+}

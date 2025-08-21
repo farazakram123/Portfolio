@@ -1,0 +1,14 @@
+.skill-component{
+    height: 21px;
+    width: fit-content;
+    padding: 2px 12px;
+    background-color: #2662d91A;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.skill-component p{
+    color: #344256;
+    font-size: 12px;
+    font-weight: 500;
+}
