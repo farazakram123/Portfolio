@@ -1,0 +1,28 @@
+.projects{
+    min-height: 100vh;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+}
+.projects .projects-title{
+    padding-left: 30px;
+}
+.projects .underline{
+    width: 120px;
+    height: 5px;
+    background-color: #2662d9;
+    border-radius: 5px;
+    margin: 4px 30px;
+}
+.projects .desctiption{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    color: #4d6280;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px 40px 30px 40px;
+}
