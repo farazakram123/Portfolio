@@ -3,6 +3,9 @@ import './contact.css';
 import Github from '../Icons/Github/Github'
 import Linkedin from '../Icons/Linkedin/Linkedin'
 import Gmail from '../Icons/Gmail/Gmail'
+import Email from '../Icons/Email';
+import Phone from '../Icons/Phone';
+import Location from '../Icons/Location';
 
 const Contact = () => {
     return (
@@ -24,7 +27,7 @@ const Contact = () => {
                         <div className="contact__details">
                             <div className="contact__detail">
                                 <div className="contact__icon">
-                                    <i className="fas fa-envelope"></i>
+                                    <Email />
                                 </div>
                                 <div className="contact__text">
                                     <h4>Email</h4>
@@ -34,7 +37,7 @@ const Contact = () => {
 
                             <div className="contact__detail">
                                 <div className="contact__icon">
-                                    <i className="fas fa-phone"></i>
+                                    <Phone />
                                 </div>
                                 <div className="contact__text">
                                     <h4>Phone</h4>
@@ -44,7 +47,7 @@ const Contact = () => {
 
                             <div className="contact__detail">
                                 <div className="contact__icon">
-                                    <i className="fas fa-map-marker-alt"></i>
+                                    <Location />
                                 </div>
                                 <div className="contact__text">
                                     <h4>Location</h4>

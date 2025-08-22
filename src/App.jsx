@@ -6,6 +6,7 @@ import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects'
 import About from './components/About/About'
 import Contact from './components/contact/contact'
+import UnderDevPhase from './components/UnderDevPhase/UnderDevPhase'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path='/#about' element={<About />} />
         <Route path='/#projects' element={<Projects />} />
         <Route path='/#contact' element={<Contact />} />
+        <Route path='/under-development' element={<UnderDevPhase />} />
       </Routes>
     </div>
   )

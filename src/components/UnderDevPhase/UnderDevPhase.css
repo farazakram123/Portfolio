@@ -1,0 +1,112 @@
+.under-dev-container {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 12px;
+}
+
+.dev-content {
+  text-align: center;
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.dev-icon {
+  margin-bottom: 1.5rem;
+}
+
+.gear-icon {
+  width: 64px;
+  height: 64px;
+  color: #3b82f6;
+  animation: spin 10s linear infinite;
+}
+
+.dev-content .dev-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #344256;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.dev-message {
+  color: #6b7280;
+  margin-bottom: 2rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out 0.3s forwards;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #3b82f6;
+  width: 30%;
+  border-radius: 2px;
+  animation: progress 2s ease infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+    opacity: 1;
+  }
+  50% {
+    width: 100%;
+    opacity: 0.5;
+  }
+  100% {
+    width: 0%;
+    opacity: 1;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .under-dev-container {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  .dev-title {
+    color: #f3f4f6;
+  }
+
+  .dev-message {
+    color: #9ca3af;
+  }
+
+  .progress-bar {
+    background: #374151;
+  }
+}
