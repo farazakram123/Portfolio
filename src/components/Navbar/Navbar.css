@@ -20,6 +20,9 @@
     align-items: center;
     gap: 3vw;
 }
+.nav-links a{
+    color: #344256;
+}
 .nav-content .day-night-mode{
     display: flex;
     align-items: center;

@@ -1,0 +1,242 @@
+/* Contact Section Styles */
+.contact {
+  padding: 10vh 30px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  display: flex;
+}
+
+.contact__container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+/* Header Styles */
+.contact__header {
+  margin-bottom: 2rem;
+}
+
+.contact__title {
+  font-size: 30px;
+  color: #344256;
+  margin-bottom: 0.5rem;
+}
+
+.contact__underline {
+  height: 5px;
+  width: 180px;
+  background-color: #2662d9;
+  border-radius: 5px;
+}
+
+.contact__description {
+  margin-top: 10px;
+  max-width: 550px;
+  color: #4d6280;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+/* Content Layout */
+.contact__content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 3rem;
+}
+
+/* Contact Info Styles */
+.contact__info {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact__info h3 {
+  font-size: 18px;
+  color: #344256;
+  margin-bottom: 10px;
+}
+
+.contact__info > p {
+  color: #4d6280;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.contact__details {
+  margin-bottom: 2.5rem;
+}
+
+.contact__detail {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.contact__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(38, 98, 217, 0.1);
+  border-radius: 8px;
+  margin-right: 1rem;
+  color: #2662d9;
+}
+
+.contact__text h4 {
+  font-size: 1.1rem;
+  color: #344256;
+  margin-bottom: 0.3rem;
+}
+
+.contact__text p {
+  color: #4d6280;
+  font-size: 0.95rem;
+}
+
+/* Social Icons */
+.contact__social h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.contact__social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.contact__social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f8f9fa;
+  color: #2662d9;
+  transition: all 0.3s ease;
+}
+
+.contact__social-icon:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Styles */
+.contact__form-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.contact__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.contact__form-group {
+  width: 100%;
+}
+
+.contact__form-group--half {
+  width: calc(50% - 0.75rem);
+}
+
+.contact__label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color: #344256;
+  font-weight: 500;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e1e5ee;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  font-size: 13px;
+  color: #344256;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  border-color: #2662d9;
+  box-shadow: 0 0 0 3px rgba(38, 98, 217, 0.1);
+  outline: none;
+}
+
+.contact__input::placeholder,
+.contact__textarea::placeholder {
+  color: #a0aec0;
+}
+
+.contact__submit-btn {
+  background-color: #2662d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.contact__submit-btn:hover {
+  background-color: #1e4fb8;
+  transform: translateY(-3px);
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .contact__content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 4rem 1.5rem;
+  }
+
+  .contact__title {
+    font-size: 2rem;
+  }
+
+  .contact__description {
+    font-size: 1rem;
+  }
+
+  .contact__form-group--half {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 3rem 1rem;
+  }
+
+  .contact__title {
+    font-size: 1.8rem;
+  }
+
+  .contact__header {
+    margin-bottom: 2.5rem;
+  }
+
+  .contact__info,
+  .contact__form-container {
+    padding: 1.5rem;
+  }
+}
