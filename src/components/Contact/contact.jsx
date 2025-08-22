@@ -6,6 +6,7 @@ import Gmail from '../Icons/Gmail/Gmail'
 import Email from '../Icons/Email';
 import Phone from '../Icons/Phone';
 import Location from '../Icons/Location';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
@@ -118,7 +119,9 @@ const Contact = () => {
                                 ></textarea>
                             </div>
 
+                            <Link to='/under-development'>
                             <button type="submit" className="contact__submit-btn">Send Message</button>
+                            </Link>
                         </form>
                     </div>
                 </div>

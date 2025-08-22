@@ -1,8 +1,18 @@
 import React from 'react'
 import './ProjectContainer.css'
 import Skills from '../Skills/Skills'
+import { Link } from 'react-router-dom'
 
 const ProjectContainer = ({name, description, skills, image}) => {
+
+    const openGitLink = () => {
+        window.open('https://github.com/farazakram123/TasteCart', "_blank");
+    }
+
+    const openLiveLink = () => {
+        window.open('https://tastecart-frontend.onrender.com', "_blank");
+    }
+
   return (
     <div className='project-container'>
         <div className="project-img">
@@ -18,8 +28,8 @@ const ProjectContainer = ({name, description, skills, image}) => {
                 }
             </div>
             <div className="project-btns">
-                <button className='github'>Github</button>
-                <button className='github'>Live Link</button>
+                <button onClick={openGitLink} className='github'>Github</button>
+                <button onClick={openLiveLink} className='github'>Live Link</button>
             </div>
         </div>
     </div>

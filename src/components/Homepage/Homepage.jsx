@@ -16,8 +16,8 @@ const Homepage = () => {
                 <p className='title'>Full-Stack Developer & Computer Science and Engineering Student</p>
                 <p className="description">I am a full-stack developer with a passion for creating beautiful and functional websites. I have a strong background in Computer Science and Engineering, and I am always looking for new challenges and opportunities to grow my skills.</p>
                 <div className="container-left-buttons">
-                    <button className='contact-me'><span>Contact Me</span></button>
-                    <button className='view-projects'>View Projects</button>
+                    <a href="#contact"><button className='contact-me'><span>Contact Me</span></button></a>
+                    <a href="#projects"><button className='view-projects'>View Projects</button></a>
                     <Link to='https://github.com/farazakram123' > <Github /></Link>
                     <Link to='https://www.linkedin.com/in/mohd-faraz-akram-0b10a6207'> <Linkedin /></Link>
                     <a href='mailto:mfarazakram0786@gmail.com'> <Gmail /></a>

@@ -2,6 +2,7 @@ import React from 'react'
 import './Navbar.css'
 import {assets} from '../../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
+import Night from '../Icons/Night'
 
 const Navbar = () => {
 
@@ -17,17 +18,17 @@ const Navbar = () => {
                     <a href="#about">About</a>
                     <a href='#projects'>Projects</a>
                     <a href='#my-skills'>Skills</a>
-                    <a href='#achievements'>Achievements</a>
+                    <Link to='/under-development'>Achievements</Link>
                     <a href='#contact'>Contact</a>
                 </div>
 
                 <div className="day-night-mode">
-                    <img src={assets.nightMode} />
+                    <Link to='/under-development'> <Night />  </Link>
                 </div>
                 
                 <div className="nav-menu">
                     <img src={assets.main_menu} />
-                    <button>Resume</button>
+                    <button onClick={() => navigate('/under-development')}>Resume</button>
                 </div>
             </div>
         </div>
