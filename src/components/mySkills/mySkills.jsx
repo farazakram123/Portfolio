@@ -28,7 +28,7 @@ const MySkills = () => {
               <h3 className="skills__category-title">Programming Languages</h3>
             </div>
             <div className="skills__list">
-                <div className="skills__item">C++</div>
+              <div className="skills__item">C++</div>
               <div className="skills__item">JavaScript</div>
               <div className="skills__item">Python</div>
             </div>
@@ -57,7 +57,7 @@ const MySkills = () => {
           <div className="skills__category">
             <div className="skills__category-header">
               <div className="skills__icon">
-                <svg viewBox="-6 -6 36.00 36.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#2662d9"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z" stroke="#2662d9" stroke-width="1.5"></path> <path d="M17 15H14.5H12" stroke="#2662d9" stroke-width="1.5" stroke-linecap="round"></path> <path d="M7 10L7.2344 10.1953C8.51608 11.2634 9.15693 11.7974 9.15693 12.5C9.15693 13.2026 8.51608 13.7366 7.2344 14.8047L7 15" stroke="#2662d9" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                <svg viewBox="-6 -6 36.00 36.00" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#2662d9"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z" stroke="#2662d9" strokeWidth="1.5"></path> <path d="M17 15H14.5H12" stroke="#2662d9" strokeWidth="1.5" strokeLinecap="round"></path> <path d="M7 10L7.2344 10.1953C8.51608 11.2634 9.15693 11.7974 9.15693 12.5C9.15693 13.2026 8.51608 13.7366 7.2344 14.8047L7 15" stroke="#2662d9" strokeWidth="1.5" strokeLinecap="round"></path> </g></svg>
               </div>
               <h3 className="skills__category-title">Backend Development</h3>
             </div>
