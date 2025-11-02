@@ -1,11 +1,7 @@
-import React from 'react'
 import Navbar from './components/Navbar/Navbar'
 import './index.css'
 import { Routes, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
-import Projects from './components/Projects/Projects'
-import About from './components/About/About'
-import Contact from './components/contact/contact'
 import UnderDevPhase from './components/UnderDevPhase/UnderDevPhase'
 
 const App = () => {

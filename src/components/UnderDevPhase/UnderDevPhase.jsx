@@ -1,4 +1,3 @@
-import React from 'react';
 import './UnderDevPhase.css';
 
 const UnderDevPhase = () => {

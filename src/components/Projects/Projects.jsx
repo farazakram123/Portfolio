@@ -1,4 +1,3 @@
-import React from 'react'
 import './Projects.css'
 import ProjectContainer from '../ProjectContainer/ProjectContainer'
 import { projects } from '../../assets/assets'

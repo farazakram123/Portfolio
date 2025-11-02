@@ -1,6 +1,5 @@
 import './ProjectContainer.css'
 import Skills from '../Skills/Skills'
-import { assets } from '../../assets/assets'
 
 const ProjectContainer = ({name, description, skills, image, url, github}) => {
 
