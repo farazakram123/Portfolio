@@ -16,7 +16,7 @@ const Projects = () => {
         {
           projects.map((project, index) => {
             return <div key={index}>
-              <ProjectContainer name={project.name} description={project.description} skills={project.skills} image={project.image}/>
+              <ProjectContainer name={project.name} description={project.description} skills={project.skills} image={project.image} url={project.url} github={project.github} />
             </div>
           })
         }

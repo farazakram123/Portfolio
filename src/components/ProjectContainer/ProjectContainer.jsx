@@ -1,16 +1,15 @@
-import React from 'react'
 import './ProjectContainer.css'
 import Skills from '../Skills/Skills'
-import { Link } from 'react-router-dom'
+import { assets } from '../../assets/assets'
 
-const ProjectContainer = ({name, description, skills, image}) => {
+const ProjectContainer = ({name, description, skills, image, url, github}) => {
 
     const openGitLink = () => {
-        window.open('https://github.com/farazakram123/TasteCart', "_blank");
+        window.open(github, "_blank");
     }
 
     const openLiveLink = () => {
-        window.open('https://tastecart-frontend.onrender.com', "_blank");
+        window.open(url, "_blank");
     }
 
   return (
