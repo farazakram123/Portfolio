@@ -33,7 +33,7 @@ const About = () => {
             </div>
             <p className="college">Motilal Nehru National Institute of Technology Allahabad, Prayagraj, UP</p>
             <p className="year">2025 - Present</p>
-            <p className="cgpa">CGPA : <span>-</span>
+            <p className="cgpa">CGPA : <span>9.4 (Till 1st semester)</span>
             </p>
           </div>
 

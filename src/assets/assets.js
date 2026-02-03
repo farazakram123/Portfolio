@@ -4,8 +4,17 @@ import menu from "../assets/menu.png";
 import main_menu from "../assets/main-menu.png";
 import tasteCart from "../assets/TasteCart.png";
 import easyShare from "../assets/EasyShare.png";
+import askthevideo from "../assets/AskTheVideo.png";
 
 export const projects = [
+  {
+    name: "Ask The Video",
+    description: "A Full-stack MERN application for food delivery, with MongoDB integration for data storage.",
+    skills: ["Python", "Langchain", "Streamlit", "Pinecone"],
+    image: askthevideo,
+    url: 'https://ask-the-video.streamlit.app/',
+    github: 'https://github.com/farazakram123/Ask-The-Video'
+  },
   {
     name: "TasteCart",
     description: "A Full-stack MERN application for food delivery, with MongoDB integration for data storage.",

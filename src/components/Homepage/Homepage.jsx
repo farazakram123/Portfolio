@@ -52,13 +52,13 @@ const Homepage = () => {
 
                         <p className="para-with-padding left-side">
                             skills <span className="colon">: </span> <span className="sq-bracket">&#x5B;</span>
-                            <span className="right-side">'React'<span className='comma'>, </span>'Node.js<span className="comma">, </span>'C++'<span className="sq-bracket">&#93;</span>
+                            <span className="right-side">'Python'<span className='comma'>, </span>'C++<span className="comma">, </span>'Nodejs'<span className="sq-bracket">&#93;</span>
                             </span>
                         </p>
 
                         <p className="para-with-padding left-side">
                             focuses<span className="colon">: </span><span className="right-side">
-                                <span className="sq-bracket">&#x5B;</span>'Full-Stack'<span className="comma">, </span>'AI'<span className="sq-bracket">&#93;</span>
+                                <span className="sq-bracket">&#x5B;</span>'Generative AI'<span className="comma">, </span>'Full-Stack'<span className="sq-bracket">&#93;</span>
                             </span>
                         </p>
 
