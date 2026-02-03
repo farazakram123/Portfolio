@@ -4,7 +4,7 @@ import menu from "../assets/menu.png";
 import main_menu from "../assets/main-menu.png";
 import tasteCart from "../assets/TasteCart.png";
 import easyShare from "../assets/EasyShare.png";
-import askthevideo from "../assets/AskTheVideo.png";
+import askthevideo from "../assets/askthevideo.png";
 
 export const projects = [
   {
