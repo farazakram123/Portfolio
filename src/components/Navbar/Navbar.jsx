@@ -2,6 +2,7 @@ import './Navbar.css'
 import {assets} from '../../assets/assets'
 import { Link, useNavigate } from 'react-router-dom'
 import Night from '../Icons/Night'
+import Resume from '../../assets/NIT_Allahabad_Resume.pdf'
 
 const Navbar = () => {
 
@@ -27,7 +28,15 @@ const Navbar = () => {
                 
                 <div className="nav-menu">
                     <img src={assets.main_menu} />
-                    <button onClick={() => navigate('/under-development')}>Resume</button>
+                    {/* <button onClick={() => navigate('/under-development')}>Resume</button> */}
+                    <a 
+                        href={Resume}
+                        download="NIT_Allahabad_Resume.pdf" 
+                        target="_blank" 
+                        rel="noreferrer"
+                    >
+                        <button>Resume</button>
+                    </a>
                 </div>
             </div>
         </div>

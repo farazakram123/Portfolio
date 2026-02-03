@@ -5,6 +5,8 @@ import Skills from '../Skills/Skills'
 import Download from '../Icons/Download'
 import myPhoto from '../../assets/myPhoto.png'
 import { Link } from 'react-router-dom'
+import Resume from '../../assets/NIT_Allahabad_Resume.pdf'
+
 
 const About = () => {
   return (
@@ -64,7 +66,8 @@ const About = () => {
           <Skills skillName={'Python'} />
         </div>
 
-        <Link to='/under-development'><div className="download-btn">
+        <Link to={Resume} download="NIT_Allahabad_Resume.pdf" target="_blank" rel="noreferrer">
+          <div className="download-btn">
           <Download />
           <p>Download Resume</p>
         </div>
